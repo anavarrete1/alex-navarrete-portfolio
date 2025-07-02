@@ -13,7 +13,7 @@ Association_Federation_Name VARCHAR(45),
 Association_Federation_President VARCHAR(45),
 CONSTRAINT PRIMARY KEY(Association_Federation_ID));
 INSERT INTO ASSOCIATION_FEDERATION VALUES (1, 'Royal Spanish Football Federation', 'Rafael Louzan');
-INSERT INTO ASSOCIATION_FEDERATION VALUES (2, 'The Football Associaton', 'Mark Bullingham');
+INSERT INTO ASSOCIATION_FEDERATION VALUES (2, 'The Football Association', 'Mark Bullingham');
 INSERT INTO ASSOCIATION_FEDERATION VALUES (3, 'United States Soccer Federation', 'Cindy Parlow');
 INSERT INTO ASSOCIATION_FEDERATION VALUES (4, 'French Football Federation', 'Phelippe Diallo');
 INSERT INTO ASSOCIATION_FEDERATION VALUES (5, 'German Football Association', 'Bernd Neuendorf');
