@@ -1,12 +1,10 @@
--- Team 4
--- Alex Navarrete
--- ITEC 3200 Summer 2025
--- Semester Project, Part 2 ddl/dml
+-- Creating tables and inserting data 
 
 DROP SCHEMA IF EXISTS Section1_Team4;
 CREATE SCHEMA Section1_Team4;
 USE Section1_Team4;
 
+-- Creating Federation Information
 CREATE TABLE ASSOCIATION_FEDERATION(
 Association_Federation_ID INT,
 Association_Federation_Name VARCHAR(45),
@@ -21,6 +19,7 @@ INSERT INTO ASSOCIATION_FEDERATION VALUES (6, 'Mexican Football Association', 'R
 INSERT INTO ASSOCIATION_FEDERATION VALUES (7, 'Saudi Arabian Football Federation', 'Yasser Al-Misehal');
 SELECT * FROM ASSOCIATION_FEDERATION;
 
+-- Creating League Information
 CREATE TABLE LEAGUE(
 League_ID INT,
 League_Name VARCHAR(45),
@@ -38,7 +37,6 @@ INSERT INTO LEAGUE VALUES (6666, 'Liga MX', 'Mikel Arriola', '1943-10-17', 6);
 INSERT INTO LEAGUE VALUES (7777, 'Saudi Pro League', 'Omar Mugharbel', '1976-05-16', 7);
 SELECT * FROM League;
 
---
 
 -- Team Information 
 CREATE TABLE Team (
